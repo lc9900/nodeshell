@@ -1,6 +1,7 @@
 var date = new Date();
 var fs = require('fs');
 var request = require('request');
+var chalk = require('chalk');
 
 
 module.exports = {
@@ -101,7 +102,8 @@ module.exports = {
                 if(lines[i].indexOf(matchString) !== -1){
                     // console.log("lines[i]");
                     // console.log()
-                    output += lines[i] + "\n";
+                    output += lines[i].split(matchString)[0] + chalk.red.bold.bgYellow(matchString) +
+                                lines[i].split(matchString)[1] + "\n";
                 }
             }
             done(output);
