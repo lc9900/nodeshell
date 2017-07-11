@@ -1,0 +1,22 @@
+{
+  "name": "5-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lc9900/nodeshell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lc9900/nodeshell/issues"
+  },
+  "homepage": "https://github.com/lc9900/nodeshell#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
